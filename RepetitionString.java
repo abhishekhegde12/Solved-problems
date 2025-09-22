@@ -19,7 +19,7 @@ public class RepetitionString {
                 j++;
             }
         }
-        maxCount = Math.max(count, maxCount);
+        maxCount = Math.max(maxCount, count);
         return maxCount;
     }
     public static void main(String[] args) {
